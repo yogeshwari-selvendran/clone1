@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header{
+   display: flex;
+   justify-content: space-between;
+   background-color: white;
+   margin-left: 24px;
+   margin-right: 24px;
+   padding: 20px;
+}
+.align{
+    display: flex;
+    
+}
+.align img{
+      width: 80px;
+      height: 20px;
+      padding: 10px 16px;
+}
+.align a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px 16px;
+    color: #757480;
+}
+.align a:hover{
+    color: black;
+    font-weight: 650;
+}
+.side svg{
+      height: 18px;
+      width: 18px;
+      color: #9e9ea7;
+      vertical-align: middle;
+      filter: invert(73%) sepia(0%) saturate(3946%) hue-rotate(316deg) brightness(88%) contrast(92%);
+}
+svg:not(:root){
+   overflow: hidden;
+}
+.side .btn{
+    height: 40px;
+    padding: 10px 16px;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 8px;
+    outline: none;
+    background: #ea4c89;
+    text-align: center;
+    transition: color 200ms ease;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #e44582b9;
+}
+.btn1{
+    color: #757480;;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    transition: color 200ms ease;
+    border: none;
+    height: 40px;
+    padding: 10px 16px;
+    background-color: white;
+}
+/* main */
+video{
+    object-fit: contain;
+    /* width: 1480px;  */
+    width: 100vw;
+    height: auto; 
+    
+    
+}
+.page{
+    position: absolute;
+    -webkit-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+    height: 600px;
+    
+}
+.arange{
+    position: absolute;
+    z-index: 1;
+}
+nav{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.arange ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.arange li{
+    
+    font-size: 16px;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.66);
+    color: white;
+    border-radius: 50px;
+    margin: 0 15px;
+    padding: 16px 20px;
+  
+}
+.arange li:hover{
+    color: black;
+    background-color: white;
+    
+}
+.arange .cover{
+    color: black;
+    background-color: white;
+    font-weight: 600;
+}
+/* this is another section */
+.items{
+    color: white;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    /* justify-content: space-between; */
+
+}
+.items h1{
+    max-width: 500px;
+    margin-top: 50px ;
+    line-height: 1.25;
+    text-align: center;
+    font-size: 32px;
+}
+.items p{
+    font-size: 16px;
+    margin-top: 20px;
+    /* margin-bottom: 16px; */
+    font-weight: 400;
+    line-height: 28px;
+}
+.box svg{
+     height: 18px;
+     width: 18px;
+     margin-top: 19px;
+     margin-left: 25px;
+     filter: invert(73%) sepia(0%) saturate(3946%) hue-rotate(316deg) brightness(88%) contrast(92%);
+     
+}
+.box{
+    box-sizing: border-box;
+    width: 40%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #f3f3f4;
+    display: flex;
+    justify-content: flex-start;
+    /* padding: 10px 50px; */
+    margin-top: 40px;
+}
+.input{
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: black;
+    margin-left: 25px;
+   
+}
+.line{
+    display: flex;
+    margin-top: 50px;
+}
+.line p{
+    font-size: 12px;
+    padding-top:8px ;
+    
+}
+.line li{
+      font-size: 14px;
+      padding: 7px 18px;
+      border-radius: 50px;
+      background-color: none;
+      transition: all 0.2s ease-in-out;
+      border: 1px solid rgba(255,255,255,0.6);
+      color: #fff;
+      margin: 5px;
+
+}
+/*  gallery */
+.container{
+    background-color: white;
+    position: relative;
+    top: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contened{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 400px;
+    width: auto;
+
+
+}
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contened .dog{
+        width: 350px;
+        height: 300px;
+        border-radius: 20px;
+       
+}
+.contened .big{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+.contened .donkey{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+.cat{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+  
+
+}
+.cat .bird{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.profile{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+
+}
+.cat .mouse{
+    padding: 2px;
+    height: 11px;
+    border-radius: 3px;
+    background: #ccc;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 5px;
+   
+   
+}
+.mouse:hover{
+    filter: invert(40%) sepia(66%) saturate(1662%) hue-rotate(310deg) brightness(97%) contrast(89%);
+    color: #fff;
+}
+.cat span{
+    color: #3d3d4e;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px;
+ 
+}
+.cat .put{
+   font-size: 14px;
+   font-weight: 800px;
+   padding: 5px 10px;
+   /* margin-left: 10px; */
+}
+.mom{
+    height: 17px;
+    padding: 5px;
+}
+.animal{
+    display: flex;
+    justify-content: center;
+   
+   
+    
+}
+.mom:hover{
+    filter: invert(40%) sepia(66%) saturate(1662%) hue-rotate(310deg) brightness(97%) contrast(89%);
+}
+.collage{
+    display: flex;
+    justify-content: space-evenly;
+}
+.office{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
